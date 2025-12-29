@@ -5,9 +5,13 @@ This project is a cybersecurity tool developed to analyze emails and detect pote
 
 ## Features
  **Keyword Analysis:** Detects high-pressure language (e.g., "Urgent", "Suspend").
+ 
  **URL Inspection:** Identifies IP-based links and insecure HTTP connections.
+ 
  **Sender Verification:** Flags suspicious public domains (e.g., "support@gmail.com") and spoofed domains (e.g., "paypa1.com").
- **Dual Interface:** 1. Standalone Web Dashboard.
+ 
+ **Dual Interface:** 
+    1. Standalone Web Dashboard.
     2. Integrated Chrome Extension for Gmail.
   
 ## How to Install and Update the Chrome Extension To run the extension on your computer, follow these steps:
