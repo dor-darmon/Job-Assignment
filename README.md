@@ -37,7 +37,7 @@ Setup Instructions First, ensure you have Python 3.x installed on your machine. 
 
 ## Project Structure
 ```text
-/Job-Assignment
+/Job-Assignments
 ├── launcher.py
 ├── README.md
 ├── templates/
