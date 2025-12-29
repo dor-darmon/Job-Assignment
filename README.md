@@ -2,7 +2,7 @@ Cybersecurity & Development Portfolio
 This repository contains three practical projects demonstrating skills in cyber defense, secure development, and malware analysis. Each project focuses on a different aspect of information security.
 
 ## Assignment 1. Phishing Detector
-Overview A real-time email analysis system designed to identify phishing attempts. The system combines heuristic text analysis and link inspection to determine the risk level of a message.
+Gmail analysis system designed to identify phishing emails . The system combines heuristic text analysis and link inspection to determine the risk level of a message.
 
 Key Features The system performs keyword analysis to detect language indicating urgency or requests for sensitive information. It inspects URLs to identify suspicious links, such as exposed IP addresses, insecure HTTP connections, or deceptive domain names. Additionally, it verifies the sender by flagging officials sending from public domains and detecting typosquatting attempts against known brands. The tool is available as both a standalone web dashboard and a Chrome browser extension.
 
@@ -20,7 +20,7 @@ Browse to the project folder and select the chrome_extension folder located insi
 
 The extension is now installed. To use it, open Gmail, view an email, and click the extension icon to scan the content.
 
-**Assignment 2. Malware Analysis Sandbox
+## Assignment 2. Malware Analysis Sandbox
 Overview A dynamic analysis tool that executes suspicious files in a controlled environment and monitors their activity in real-time to detect malicious behavior.
 
 Key Features This desktop application allows users to select and run executable files while monitoring system changes. It tracks file system activity to detect creation, deletion, or renaming of files, which are common indicators of ransomware. It also monitors CPU and RAM usage to identify resource exhaustion and detects network activity to spot attempts to connect to external servers. At the end of the analysis, the system generates a detailed text report.
@@ -30,7 +30,7 @@ Overview An educational application that demonstrates one of the most common web
 
 Key Features The application features a login interface with two modes. The Vulnerable Mode uses string concatenation to build queries, allowing users to bypass authentication using input manipulation. The Secure Mode demonstrates how parameterized queries treat input as data rather than executable code, effectively neutralizing the attack. The interface displays the backend SQL query in real-time, providing immediate visual feedback on the success or failure of the attack.
 
-General Installation and Usage
+* Installation and Usage
 Launcher The project includes a central management script named launcher.py that allows you to run all assignments from a single dashboard.
 
 Setup Instructions First, ensure you have Python 3.x installed on your machine. Next, install the required dependencies by running the command pip install flask flask-cors watchdog psutil in your terminal. Finally, start the system by running python launcher.py. A dashboard will automatically open in your web browser, allowing you to launch and manage each project.
